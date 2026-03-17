@@ -1,6 +1,6 @@
 # latex-nvim
 
-A lightweight, asynchronous LaTeX plugin for Neovim — inspired by VimTex — built around your own `compile_latex` script with live PDF preview via **evince**.
+A lightweight, asynchronous LaTeX plugin for Neovim — inspired by VimTex.
 
 ![Neovim](https://img.shields.io/badge/Neovim-0.9%2B-blueviolet?logo=neovim)
 ![Lua](https://img.shields.io/badge/Made%20with-Lua-blue?logo=lua)
@@ -9,7 +9,6 @@ A lightweight, asynchronous LaTeX plugin for Neovim — inspired by VimTex — b
 
 ## ✨ Features
 
-- 🔨 **Async compilation** — runs your `compile_latex` script in the background; Neovim never freezes
 - 📄 **Evince integration** — opens your PDF with evince, which auto-reloads on every recompile
 - 💾 **Compile on save** — edit, save, and see the PDF update automatically
 - 📋 **Quickfix error navigation** — parses the `.log` file and populates the quickfix list so you can jump to errors with a keymap
